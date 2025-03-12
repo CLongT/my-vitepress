@@ -4,10 +4,10 @@ import sidebar from './sidebar.mjs'
 
 const newLocal = 'gitte'
 export default defineConfig({
-    base: "/my-vitepress/",
+    base: "//",
     title: 'LongTing 的学习博客',
     description: '一个学习笔记博客',
-    head:["link", {rel: "icon", href: "/my-vitepress/logo.svg"}],
+    head:["link", {rel: "icon", href: "//logo.svg"}],
     srcDir: 'docs',
     themeConfig: {
         logo: '/logo.svg',
